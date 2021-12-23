@@ -657,28 +657,42 @@
                          data-controllers-bound="MobileOverlayFolders">
                         <div class="Mobile-overlay-menu-main">
                             <nav class="Mobile-overlay-nav Mobile-overlay-nav--primary" data-content-field="navigation">
-                                <button class="Mobile-overlay-nav-item Mobile-overlay-nav-item--folder"
-                                        data-controller-folder-toggle="Hyper-Velocity 3D Printer"><span
-                                        class="Mobile-overlay-nav-item--folder-label">3D Printer</span></button>
+                                <button class="Mobile-overlay-nav-item Mobile-overlay-nav-item--folder" data-controller-folder-toggle="Hyper-Velocity 3D Printer">
+                        <span class="Mobile-overlay-nav-item--folder-label">
+                            3D Printer
+                        </span>
+                                </button>
                                 <a href="https://www.cnckitchen.com/" class="Mobile-overlay-nav-item"> MPCNC </a>
-                                <button class="Mobile-overlay-nav-item Mobile-overlay-nav-item--folder"
-                                        data-controller-folder-toggle="eGPU Hub"><span
-                                        class="Mobile-overlay-nav-item--folder-label">eGPU</span></button>
-                                <a href="https://github.com/Meta-Team" class="Mobile-overlay-nav-item"> Meta RoboMaster
-                                    Team </a> <a href="https://www.cnckitchen.com/gear" class="Mobile-overlay-nav-item">
-                                DIY Design </a> <a href="https://themelt.zone/" class="Mobile-overlay-nav-item">
-                                Others </a></nav>
-                            <nav class="Mobile-overlay-nav Mobile-overlay-nav--secondary"
-                                 data-content-field="navigation"></nav>
+                                <button class="Mobile-overlay-nav-item Mobile-overlay-nav-item--folder" data-controller-folder-toggle="eGPU Hub">
+                        <span class="Mobile-overlay-nav-item--folder-label">
+                            eGPU
+                        </span>
+                                </button>
+                                <a href="https://github.com/Meta-Team" class="Mobile-overlay-nav-item"> Meta RoboMaster Team </a>
+                                <a href="https://www.cnckitchen.com/gear" class="Mobile-overlay-nav-item"> DIY Design </a>
+                                <a href="https://themelt.zone/" class="Mobile-overlay-nav-item"> Others </a>
+                            </nav>
+                            <nav class="Mobile-overlay-nav Mobile-overlay-nav--secondary" data-content-field="navigation"></nav>
                         </div>
                         <div class="Mobile-overlay-folders" data-content-field="navigation">
                             <div class="Mobile-overlay-folder" data-controller-folder="Hyper-Velocity 3D Printer">
-                                <button class="Mobile-overlay-folder-item Mobile-overlay-folder-item--toggle"
-                                        data-controller-folder-toggle="Hyper-Velocity 3D Printer"><span
-                                        class="Mobile-overlay-folder-item--toggle-label">Back</span></button>
-                                <a href="HVPSC.html" class="Mobile-overlay-folder-item"> 2-Gen HVPSC </a> <a
-                                    href="https://twitter.com/cnc_kitchen" class="Mobile-overlay-folder-item"> 1-Gen
-                                HVPSG </a></div>
+                                <button class="Mobile-overlay-folder-item Mobile-overlay-folder-item--toggle" data-controller-folder-toggle="Hyper-Velocity 3D Printer">
+                                    <span class="Mobile-overlay-folder-item--toggle-label">Back</span>
+                                </button>
+                                <a href="HVPSC.html" class="Mobile-overlay-folder-item"> 2-Gen HVPSC </a>
+                                <a href="HVPSG.html" class="Mobile-overlay-folder-item"> 1-Gen HVPSG </a>
+                            </div>
+                        </div>
+                        <div class="Mobile-overlay-folders" data-content-field="navigation">
+                            <div class="Mobile-overlay-folder" data-controller-folder="eGPU Hub">
+                                <button class="Mobile-overlay-folder-item Mobile-overlay-folder-item--toggle" data-controller-folder-toggle="eGPU Hub">
+                                    <span class="Mobile-overlay-folder-item--toggle-label">Back</span>
+                                </button>
+                                <a href="" class="Mobile-overlay-folder-item"> 4th-Gen with RTX3070TI </a>
+                                <a href="" class="Mobile-overlay-folder-item"> 3rd-Gen with RTX2080 </a>
+                                <a href="" class="Mobile-overlay-folder-item"> 2nd-Gen with RTX2080 </a>
+                                <a href="" class="Mobile-overlay-folder-item"> 1st-Gen with R9 nano </a>
+                            </div>
                         </div>
                     </div>
                     <button class="Mobile-overlay-close" data-controller="MobileOverlayToggle"
@@ -704,24 +718,51 @@
                     <div data-nc-container="top-center">
                         <nav class="Header-nav Header-nav--primary" data-nc-element="primary-nav"
                              data-content-field="navigation">
-                            <div class="Header-nav-inner"><span class="Header-nav-item Header-nav-item--folder"> <a
-                                    href="HVPSC.html" class="Header-nav-folder-title"
-                                    data-controller="HeaderNavFolderTouch"
-                                    data-controllers-bound="HeaderNavFolderTouch">3D Printer</a> <span
-                                    class="Header-nav-folder"> <a href="HVPSC.html" class="Header-nav-folder-item">2nd-Gen HVPSC</a> <a
-                                    href="HVPSG.html" class="Header-nav-folder-item">1st-Gen HVPSG</a> </span> </span>
-                                <a href="https://www.cnckitchen.com/support-me" class="Header-nav-item"
-                                   data-test="template-nav">MPCNC</a> <span
-                                        class="Header-nav-item Header-nav-item--folder"> <a href="HVPSC.html"
-                                                                                            class="Header-nav-folder-title"
-                                                                                            data-controller="HeaderNavFolderTouch"
-                                                                                            data-controllers-bound="HeaderNavFolderTouch">eGPU</a> <span
-                                        class="Header-nav-folder"> <a href="HVPSC.html" class="Header-nav-folder-item">2nd-Gen with RTX2080</a> <a
-                                        href="https://twitter.com/cnc_kitchen" class="Header-nav-folder-item">1st-Gen with R9 nano</a> </span> </span>
-                                <a href="https://github.com/Meta-Team" class="Header-nav-item">Meta RoboMaster Team</a>
-                                <a href="DIYDesign.html" class="Header-nav-item">DIY Design</a> <a href=" "
-                                                                                                   class="Header-nav-item"
-                                                                                                   data-test="template-nav">Others</a>
+                            <div class="Header-nav-inner">
+                        <span class="Header-nav-item Header-nav-item--folder">
+                            <a href="HVPSC.html" style="font-size: 14px;" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">
+                                3D Printer
+                            </a>
+                            <span class="Header-nav-folder">
+                                <a href="HVPSC.html" class="Header-nav-folder-item">
+                                2nd-Gen HVPSC
+                                </a>
+                                <a href="HVPSG.html" class="Header-nav-folder-item">
+                                    1st-Gen HVPSG
+                                </a>
+                            </span>
+                        </span>
+                                <a href="" style="font-size: 14px;" class="Header-nav-item" data-test="template-nav">
+                                    MPCNC
+                                </a>
+                                <span class="Header-nav-item Header-nav-item--folder">
+                            <a href="" style="font-size: 14px;" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">
+                                eGPU
+                            </a>
+                            <span class="Header-nav-folder">
+                                <a href="" class="Header-nav-folder-item">
+                                    4th-Gen with RTX3070TI
+                                </a>
+                                <a href="" class="Header-nav-folder-item">
+                                    3rd-Gen with RTX2080
+                                </a>
+                                <a href="" class="Header-nav-folder-item">
+                                    2nd-Gen with RTX2080
+                                </a>
+                                <a href="" class="Header-nav-folder-item">
+                                    1st-Gen with R9 nano
+                                </a>
+                            </span>
+                        </span>
+                                <a href="https://github.com/Meta-Team" style="font-size: 14px;" class="Header-nav-item">
+                                    Meta RoboMaster Team
+                                </a>
+                                <a href="DIYDesign.html" style="font-size: 14px;" class="Header-nav-item">
+                                    DIY Design
+                                </a>
+                                <a href=" " style="font-size: 14px;" class="Header-nav-item" data-test="template-nav">
+                                    Others
+                                </a>
                             </div>
                         </nav>
                         <a href="./index.html" class="Header-branding" data-nc-element="branding"
@@ -826,13 +867,13 @@
                 						image-block-wrapper
                 						has-aspect-ratio
               							" data-animation-role="image" id="yui_3_17_2_1_1607203845_108">
-                                                        <img alt="HVPSG"
+                                                        <img alt="Hardware"
                                                              style="left: 0%; top: 0%; width: 100%; height: 100%; position: absolute;"
                                                              src="./HVPSG_files/17.jpg">
                                                     </div>
                                                     <figcaption class="image-caption-wrapper">
                                                         <div class="image-caption">
-                                                            <p class="" style="white-space:pre-wrap;">HVPSG</p>
+                                                            <p class="" style="white-space:pre-wrap;">Hardware</p>
                                                         </div>
                                                     </figcaption>
                                                 </figure>
@@ -843,7 +884,9 @@
                                          id="block-yui_3_17_2_1_1606583343_28353">
                                         <div class="sqs-block-content">
                                             <p class="" style="white-space:normal; font-size: 18px; color: rgba(0,0,0,1);">
-                                                To do.
+                                                These are the hardware bought online. I chose a set of SKR V1.3 and raspberry pi as controller and
+                                                actually brought a mosquito hot end from U.S. There's also a set of close-loop controlled NEMA23 stepper
+                                                motors and PCB for stepper driver converting that made by myself.
                                             </p>
                                         </div>
                                     </div>
@@ -866,13 +909,13 @@
                 						image-block-wrapper
                 						has-aspect-ratio
               							" data-animation-role="image" id="yui_3_17_2_1_1607903845_108">
-                                                        <img alt="HVPSG"
+                                                        <img alt="Manufacturing X carriage"
                                                              style="left: 0%; top: 0%; width: 100%; height: 100%; position: absolute;"
                                                              src="./HVPSG_files/14.jpg">
                                                     </div>
                                                     <figcaption class="image-caption-wrapper">
                                                         <div class="image-caption">
-                                                            <p class="" style="white-space:pre-wrap;">HVPSG</p>
+                                                            <p class="" style="white-space:pre-wrap;">Manufacturing X Carriage</p>
                                                         </div>
                                                     </figcaption>
                                                 </figure>
@@ -883,7 +926,9 @@
                                          id="block-yui_3_17_2_1_1606210343_28353">
                                         <div class="sqs-block-content">
                                             <p class="" style="white-space:normal; font-size: 18px; color: rgba(0,0,0,1);">
-                                                To do.
+                                                I made most of the parts by the MPCNC and spent a lot of time optimizing the machining process
+                                                for better quality and shorter manufacturing time. In the picture is the x carriage manufactured
+                                                by MPCNC.
                                             </p>
                                         </div>
                                     </div>
@@ -906,13 +951,13 @@
                 						image-block-wrapper
                 						has-aspect-ratio
               							" data-animation-role="image" id="yui_3_177265903845_108">
-                                                        <img alt="HVPSG"
+                                                        <img alt="Overall Frame Design"
                                                              style="left: 0%; top: 0%; width: 100%; height: 100%; position: absolute;"
                                                              src="./HVPSG_files/9.jpg">
                                                     </div>
                                                     <figcaption class="image-caption-wrapper">
                                                         <div class="image-caption">
-                                                            <p class="" style="white-space:pre-wrap;">HVPSG</p>
+                                                            <p class="" style="white-space:pre-wrap;">Overall Frame Design</p>
                                                         </div>
                                                     </figcaption>
                                                 </figure>
@@ -923,7 +968,10 @@
                                          id="block-yui_3_17_2_1_160658343_28353">
                                         <div class="sqs-block-content">
                                             <p class="" style="white-space:normal; font-size: 18px; color: rgba(0,0,0,1);">
-                                                To do.
+                                                Most of the printer frame was manufactured with black FR4 fiber glass boards. The FR4
+                                                has similar property with carbon fiber board but with a much cheaper price and around
+                                                30% more weight. Also, the FR4 is more friendly to manufacture as the dust does no harm
+                                                and settling much faster than carbon fiber.
                                             </p>
                                         </div>
                                     </div>
@@ -946,13 +994,13 @@
                 						image-block-wrapper
                 						has-aspect-ratio
               							" data-animation-role="image" id="yui_3_07265903845_108">
-                                                        <img alt="HVPSG"
+                                                        <img alt="Wiring"
                                                              style="left: 0%; top: 0%; width: 100%; height: 100%; position: absolute;"
                                                              src="./HVPSG_files/3.jpg">
                                                     </div>
                                                     <figcaption class="image-caption-wrapper">
                                                         <div class="image-caption">
-                                                            <p class="" style="white-space:pre-wrap;">HVPSG</p>
+                                                            <p class="" style="white-space:pre-wrap;">Wiring</p>
                                                         </div>
                                                     </figcaption>
                                                 </figure>
@@ -963,7 +1011,13 @@
                                          id="block-yui_3_17_2_1_16065843_28353">
                                         <div class="sqs-block-content">
                                             <p class="" style="white-space:normal; font-size: 18px; color: rgba(0,0,0,1);">
-                                                To do.
+                                                Just want to show off the perfect wiring. :) So things in this picture worth sharing
+                                                are the customized PCB boards for stepper driver converting on the top right of the SKR
+                                                and customized lead screw which is different with the previous picture. So the reason of
+                                                switching to regular lead screw instead of the original ball lead screw is the ball lead
+                                                screw creates a periodic horizontal shift every rotation. And since the tolerance of the
+                                                ball lead screw is much smaller than the regular lead screw, the shift was transferred to
+                                                the printer bed, and it created a periodic layer pattern on the print part.
                                             </p>
                                         </div>
                                     </div>
@@ -986,13 +1040,13 @@
                 						image-block-wrapper
                 						has-aspect-ratio
               							" data-animation-role="image" id="yui_3_265903845_108">
-                                                        <img alt="HVPSG"
+                                                        <img alt="Diagonalizing Process"
                                                              style="left: 0%; top: 0%; width: 100%; height: 100%; position: absolute;"
                                                              src="./HVPSG_files/4.jpg">
                                                     </div>
                                                     <figcaption class="image-caption-wrapper">
                                                         <div class="image-caption">
-                                                            <p class="" style="white-space:pre-wrap;">HVPSG</p>
+                                                            <p class="" style="white-space:pre-wrap;">Diagonalizing Process</p>
                                                         </div>
                                                     </figcaption>
                                                 </figure>
@@ -1003,485 +1057,30 @@
                                          id="block-yui_3_1783210343_28353">
                                         <div class="sqs-block-content">
                                             <p class="" style="white-space:normal; font-size: 18px; color: rgba(0,0,0,1);">
-                                                To do.
+                                                So I found the problem by using a dial gauge. There was actually some uneven vertical error
+                                                every z move as well as the tolerance on the ball lead screw is so small that it drove the two
+                                                linear rail unevenly. Therefore, after trying several solutions such as adding springs between the
+                                                leading nut and heat bed as the previous picture shows, I found my self more into the 3Z self-leveling
+                                                design. So the first generation of hyper velocity printer was very unfortunately disassembled for
+                                                its successor.
                                             </p>
-                                        </div>
+                                            <p class="" style="white-space:normal; font-size: 18px; color: rgba(0,0,0,1);">
+                                                After around half a year after I took the printer apart, HevORT on YouTube (MirageC now) post a video
+                                                about the horizontal shift on the ball lead screw. The cool dude designed a quite good solution
+                                                to the problem.
+                                                <a href="https://www.youtube.com/watch?v=mqSQhwqSzvg" style="font-size: 18px; color: rgba(0,0,0,1);">
+                                                    https://www.youtube.com/watch?v=mqSQhwqSzvg
+                                                </a>
+                                            </p>
+
+
+                                            </div>
                                     </div>
                                     <div class="sqs-block image-block sqs-block-image sqs-text-ready"
                                          data-block-type="5" id="block-yui_3_17_2_1_1606583210343_29034">
-
-                                        <!--
-                                                    <div class="sqs-block-content" id="yui_3_17_2_1_1607265903845_136">
-
-
-
-
-
-
-
-
-
-
-
-
-                                    <div class="
-                                          image-block-outer-wrapper
-                                          layout-caption-below
-                                          design-layout-inline
-                                          combination-animation-none
-                                          individual-animation-none
-                                          individual-text-animation-none
-                                        " data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1607265903845_135">
-
-
-
-
-                                        <figure class="
-                                              sqs-block-image-figure
-                                              intrinsic
-                                            " style="max-width:1920.0px;" id="yui_3_17_2_1_1607265903845_134">
-
-
-
-
-
-
-
-                                          <div style="padding-bottom: 56.25%; overflow: hidden;" class="
-                                                image-block-wrapper
-
-
-
-                                                has-aspect-ratio
-                                              " data-animation-role="image" id="yui_3_17_2_1_1607265903845_133">
-                                            <noscript><img src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606583335023-M5JLGTXTPG3M0G4W6RO1/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbeDbaZv1s3QfpIA4TYnL5Qao8BosUKjCVjCf8TKewJIH3bqxw7fF48mhrq5Ulr0Hg/vlcsnap-2020-11-28-18h07m16s520.png" alt="Single-walled extrusion test part" /></noscript><img class="thumb-image loaded" data-src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606583335023-M5JLGTXTPG3M0G4W6RO1/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbeDbaZv1s3QfpIA4TYnL5Qao8BosUKjCVjCf8TKewJIH3bqxw7fF48mhrq5Ulr0Hg/vlcsnap-2020-11-28-18h07m16s520.png" data-image="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606583335023-M5JLGTXTPG3M0G4W6RO1/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbeDbaZv1s3QfpIA4TYnL5Qao8BosUKjCVjCf8TKewJIH3bqxw7fF48mhrq5Ulr0Hg/vlcsnap-2020-11-28-18h07m16s520.png" data-image-dimensions="1920x1080" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5fc2841d3c02f22b9d5e5a86" data-type="image" alt="Single-walled extrusion test part" style="left: -0.0103842%; top: 0%; width: 100.021%; height: 100%; position: absolute;" data-image-resolution="2500w" src="./HVPSC_files/vlcsnap-2020-11-28-18h07m16s520.png">
-                                          </div>
-
-
-
-
-
-
-                                          <figcaption class="image-caption-wrapper">
-                                            <div class="image-caption"><p class="" style="white-space:pre-wrap;">Single-walled extrusion test part</p></div>
-                                          </figcaption>
-
-
-                                        </figure>
-
-
-                                    </div>
-
-
-
-
-
-
-                                </div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1606583210343_29324"><div class="sqs-block-content"><p class="" style="white-space:pre-wrap;">Interestingly, at even higher temperatures, the expansion seems to be smaller. I don't have a definitive answer for that, but I assume that at elevated temperatures, the bubbles in the material get too big and partly collapse. Still, at the ideal temperature, this results in an expansion of 100%, so half the weight or double the volume as the base material, which is significant!</p></div></div><div class="sqs-block image-block sqs-block-image sqs-text-ready" data-block-type="5" id="block-yui_3_17_2_1_1606582138790_18630"><div class="sqs-block-content" id="yui_3_17_2_1_1607265903845_153">
-
-
-
-
-
-
-
-
-
-
-
-
-                                    <div class="
-                                          image-block-outer-wrapper
-                                          layout-caption-below
-                                          design-layout-inline
-                                          combination-animation-none
-                                          individual-animation-none
-                                          individual-text-animation-none
-                                        " data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1607265903845_152">
-
-
-
-
-                                        <figure class="
-                                              sqs-block-image-figure
-                                              intrinsic
-                                            " style="max-width:943.0px;" id="yui_3_17_2_1_1607265903845_151">
-
-
-
-
-
-
-
-                                          <div style="padding-bottom: 55.9915%; overflow: hidden;" class="
-                                                image-block-wrapper
-
-
-
-                                                has-aspect-ratio
-                                              " data-animation-role="image" id="yui_3_17_2_1_1607265903845_150">
-                                            <noscript><img src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582531294-9GAFIPOMSVU4KCNNSYSA/ke17ZwdGBToddI8pDm48kB1qzgfToUsZXSkrSsSsTDVZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIz2jd2yPnNIF5UViB9zxjNLXpa_1LXSYSDzV6erS3_tg/flow_all.png" alt="Calculated flow values" /></noscript><img class="thumb-image loaded" data-src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582531294-9GAFIPOMSVU4KCNNSYSA/ke17ZwdGBToddI8pDm48kB1qzgfToUsZXSkrSsSsTDVZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIz2jd2yPnNIF5UViB9zxjNLXpa_1LXSYSDzV6erS3_tg/flow_all.png" data-image="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582531294-9GAFIPOMSVU4KCNNSYSA/ke17ZwdGBToddI8pDm48kB1qzgfToUsZXSkrSsSsTDVZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIz2jd2yPnNIF5UViB9zxjNLXpa_1LXSYSDzV6erS3_tg/flow_all.png" data-image-dimensions="943x528" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5fc28102a97599144e487519" data-type="image" alt="Calculated flow values" style="left: 0%; top: 0%; width: 100%; height: 100%; position: absolute;" data-image-resolution="2500w" src="./HVPSC_files/flow_all.png">
-                                          </div>
-
-
-
-
-
-
-                                          <figcaption class="image-caption-wrapper">
-                                            <div class="image-caption"><p class="" style="white-space:pre-wrap;">Calculated flow values</p></div>
-                                          </figcaption>
-
-
-                                        </figure>
-
-
-                                    </div>
-
-
-
-
-
-
-                                </div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1606582138790_18937"><div class="sqs-block-content"><p class="" style="white-space:pre-wrap;">Printing quality for normal models is mostly okay, but due to the foaming nature, stringing or material oozing during travel moves is inevitable, which can be a pain to clean up. Bridges also don't look great with my un-tuned profile. Everything else looks really great, though—smooth and matte surfaces with no layer lines and good overhangs. So if you design your part with this filament in mind and keep travel moves to a minimum, you might be able to produce some really nice looking parts!</p></div></div><div class="sqs-block image-block sqs-block-image sqs-text-ready" data-block-type="5" id="block-yui_3_17_2_1_1606582138790_47181"><div class="sqs-block-content" id="yui_3_17_2_1_1607265903845_170">
-
-
-
-
-
-
-
-
-
-
-
-
-                                    <div class="
-                                          image-block-outer-wrapper
-                                          layout-caption-below
-                                          design-layout-inline
-                                          combination-animation-none
-                                          individual-animation-none
-                                          individual-text-animation-none
-                                        " data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1607265903845_169">
-
-
-
-
-                                        <figure class="
-                                              sqs-block-image-figure
-                                              intrinsic
-                                            " style="max-width:1920.0px;" id="yui_3_17_2_1_1607265903845_168">
-
-
-
-
-
-
-
-                                          <div style="padding-bottom: 56.25%; overflow: hidden;" class="
-                                                image-block-wrapper
-
-
-
-                                                has-aspect-ratio
-                                              " data-animation-role="image" id="yui_3_17_2_1_1607265903845_167">
-                                            <noscript><img src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606583036668-KYIFUC8R746O57ZFGXOP/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbeDbaZv1s3QfpIA4TYnL5Qao8BosUKjCVjCf8TKewJIH3bqxw7fF48mhrq5Ulr0Hg/vlcsnap-2020-11-28-18h01m41s237.png" alt="3DBenchy" /></noscript><img class="thumb-image loaded" data-src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606583036668-KYIFUC8R746O57ZFGXOP/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbeDbaZv1s3QfpIA4TYnL5Qao8BosUKjCVjCf8TKewJIH3bqxw7fF48mhrq5Ulr0Hg/vlcsnap-2020-11-28-18h01m41s237.png" data-image="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606583036668-KYIFUC8R746O57ZFGXOP/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbeDbaZv1s3QfpIA4TYnL5Qao8BosUKjCVjCf8TKewJIH3bqxw7fF48mhrq5Ulr0Hg/vlcsnap-2020-11-28-18h01m41s237.png" data-image-dimensions="1920x1080" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5fc282f63570fb44d154477f" data-type="image" alt="3DBenchy" style="left: -0.0103842%; top: 0%; width: 100.021%; height: 100%; position: absolute;" data-image-resolution="2500w" src="./HVPSC_files/vlcsnap-2020-11-28-18h01m41s237.png">
-                                          </div>
-
-
-
-
-
-
-                                          <figcaption class="image-caption-wrapper">
-                                            <div class="image-caption"><p class="" style="white-space:pre-wrap;">3DBenchy</p></div>
-                                          </figcaption>
-
-
-                                        </figure>
-
-
-                                    </div>
-
-
-
-
-
-
-                                </div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1606582138790_47480"><div class="sqs-block-content"><p class="" style="white-space:pre-wrap;">We've seen that we can foam up the material to twice the volume but does this also mean that the material becomes twice as soft? To test the Shore Hardness variability of Varioshore TPU I reached out to my friends at Mitutoyo and asked them if I could borrow two of their hardness testers, to which they kindly agreed. With such a durometer, you measure the indentation depth in a material created by a standardized indenter at a given force. The hardness of a material is then measured in Shore hardness on a given scale that corresponds to a specific indenter and force. 100 Shore means no penetration of the indenter, 0 Shore means that the whole range of the tip indented the material. The most common harness scales we're usually confronted with in Shore Hardness A and D. D is for plastics and harder rubbers and features quite a sharp tip, whereas Type A is for medium and soft rubbers where a blunt tip is used. There is a range in which both scales overlap, and theoretically, both methods should work.</p><p class="" style="white-space:pre-wrap;">In order to test the hardness range of Varioshore TPU I printed a bunch of these small plates that are 3mm thick. The ISO standard for harness testing asks for a minimum material thickness of 6 mm, so I always stacked two on top which is specifically allowed.</p></div></div><div class="sqs-block image-block sqs-block-image sqs-text-ready" data-block-type="5" id="block-yui_3_17_2_1_1606582138790_42491"><div class="sqs-block-content" id="yui_3_17_2_1_1607265903845_187">
-
-
-
-
-
-
-
-
-
-
-
-
-                                    <div class="
-                                          image-block-outer-wrapper
-                                          layout-caption-below
-                                          design-layout-inline
-                                          combination-animation-none
-                                          individual-animation-none
-                                          individual-text-animation-none
-                                        " data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1607265903845_186">
-
-
-
-
-                                        <figure class="
-                                              sqs-block-image-figure
-                                              intrinsic
-                                            " style="max-width:1920.0px;" id="yui_3_17_2_1_1607265903845_185">
-
-
-
-
-
-
-
-                                          <div style="padding-bottom: 56.25%; overflow: hidden;" class="
-                                                image-block-wrapper
-
-
-
-                                                has-aspect-ratio
-                                              " data-animation-role="image" id="yui_3_17_2_1_1607265903845_184">
-                                            <noscript><img src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582987174-5VBJRLA08PMLSEFMBCT4/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbeDbaZv1s3QfpIA4TYnL5Qao8BosUKjCVjCf8TKewJIH3bqxw7fF48mhrq5Ulr0Hg/vlcsnap-2020-11-28-18h02m03s420.png" alt="Mitutoyo Hardmatic shore Harness Testers" /></noscript><img class="thumb-image loaded" data-src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582987174-5VBJRLA08PMLSEFMBCT4/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbeDbaZv1s3QfpIA4TYnL5Qao8BosUKjCVjCf8TKewJIH3bqxw7fF48mhrq5Ulr0Hg/vlcsnap-2020-11-28-18h02m03s420.png" data-image="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582987174-5VBJRLA08PMLSEFMBCT4/ke17ZwdGBToddI8pDm48kNvT88LknE-K9M4pGNO0Iqd7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UbeDbaZv1s3QfpIA4TYnL5Qao8BosUKjCVjCf8TKewJIH3bqxw7fF48mhrq5Ulr0Hg/vlcsnap-2020-11-28-18h02m03s420.png" data-image-dimensions="1920x1080" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5fc282c13570fb44d1543cd6" data-type="image" alt="Mitutoyo Hardmatic shore Harness Testers" style="left: -0.0103842%; top: 0%; width: 100.021%; height: 100%; position: absolute;" data-image-resolution="2500w" src="./HVPSC_files/vlcsnap-2020-11-28-18h02m03s420.png">
-                                          </div>
-
-
-
-
-
-
-                                          <figcaption class="image-caption-wrapper">
-                                            <div class="image-caption"><p class="" style="white-space:pre-wrap;">Mitutoyo Hardmatic shore Harness Testers</p></div>
-                                          </figcaption>
-
-
-                                        </figure>
-
-
-                                    </div>
-
-
-
-
-
-
-                                </div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1606582138790_42790"><div class="sqs-block-content"><p class="" style="white-space:pre-wrap;">Let's start with Shore D, so the scale for the harder materials. You press the durometer on the material, ideally with a specified force, and usually read the measurement after 15s. To get a feeling for that scale, let's start with standard 3D printing materials. PLA was the hardest with 78, then came ASA and Prusas PC-Blend with 73 and PETG was even a bit softer at 70 Shore D. My cutting matte is around 60 Shore D. Than we made quite a big jump with 46 Shore D for Extrudrs medium hardness TPU. Next, we finally get to Colorfabbs Varioshore TPU. Parts printed at 190°C, when no foaming happens, measured in at 35 Shore D. The samples printed at 200°C already were significantly softer at 25 Shore D and we further decrease the hardness at 210°C with 20 Shore D. You can also definitely feel that with your hand when you bend the material. The 190°C sample is still quite firm, whereas the 200°C sample that's already a bit foamed up is way more compliant. Now it gets interesting because at 220°C we've seen the highest degree of foaming. Will this also be the softest sample? I measured 16 Shore D and as expected, the sample printed at 230°C was already a bit harder at 19 Shore D and on a similar level as the 240°C and 250°C samples. The only material I had that was even slightly softer was Diabase X60 TPU, which measured in at around 14 Shore D, which is already interesting. X60 is soft like Spaghetti, and not the one cooked al-dente, and I wasn't able to print it on my Prusa, not even to speak of a Bowden-style printer like the Ender-3. This material requires a special extruder for flexibles like the OmniaDrop of which I have one on my E3D Toolchanger. Though, if we print the Varioshore TPU at the ideal 220°C we get almost the same level of softness but it's way easier to handle! Think about that!</p></div></div><div class="sqs-block image-block sqs-block-image sqs-text-ready" data-block-type="5" id="block-yui_3_17_2_1_1606582138790_23413"><div class="sqs-block-content" id="yui_3_17_2_1_1607265903845_204">
-
-
-
-
-
-
-
-
-
-
-
-
-                                    <div class="
-                                          image-block-outer-wrapper
-                                          layout-caption-below
-                                          design-layout-inline
-                                          combination-animation-none
-                                          individual-animation-none
-                                          individual-text-animation-none
-                                        " data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1607265903845_203">
-
-
-
-
-                                        <figure class="
-                                              sqs-block-image-figure
-                                              intrinsic
-                                            " style="max-width:943.0px;" id="yui_3_17_2_1_1607265903845_202">
-
-
-
-
-
-
-
-                                          <div style="padding-bottom: 56.6278%; overflow: hidden;" class="
-                                                image-block-wrapper
-
-
-
-                                                has-aspect-ratio
-                                              " data-animation-role="image" id="yui_3_17_2_1_1607265903845_201">
-                                            <noscript><img src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582719307-DHE01L7OBKFGTMB3CFB3/ke17ZwdGBToddI8pDm48kAtXp7EdkS0hmaMwfNdVpXpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIozxRI6ROK3Yk9uc5URc1uQ0txmacK8shqKkTWa44Kok/D_horizontal.png" alt="Shore D Hardness - average of 3 tests" /></noscript><img class="thumb-image loaded" data-src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582719307-DHE01L7OBKFGTMB3CFB3/ke17ZwdGBToddI8pDm48kAtXp7EdkS0hmaMwfNdVpXpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIozxRI6ROK3Yk9uc5URc1uQ0txmacK8shqKkTWa44Kok/D_horizontal.png" data-image="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582719307-DHE01L7OBKFGTMB3CFB3/ke17ZwdGBToddI8pDm48kAtXp7EdkS0hmaMwfNdVpXpZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIozxRI6ROK3Yk9uc5URc1uQ0txmacK8shqKkTWa44Kok/D_horizontal.png" data-image-dimensions="943x534" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5fc281becb3e0f5771a122cf" data-type="image" alt="Shore D Hardness - average of 3 tests" style="left: 0%; top: 0%; width: 100%; height: 100%; position: absolute;" data-image-resolution="2500w" src="./HVPSC_files/D_horizontal.png">
-                                          </div>
-
-
-
-
-
-
-                                          <figcaption class="image-caption-wrapper">
-                                            <div class="image-caption"><p class="" style="white-space:pre-wrap;">Shore D Hardness - average of 3 tests</p></div>
-                                          </figcaption>
-
-
-                                        </figure>
-
-
-                                    </div>
-
-
-
-
-
-
-                                </div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1606582138790_23712"><div class="sqs-block-content"><p class="" style="white-space:pre-wrap;">I repeated the same tests on the Shore A range, where the measurements are usually taken instantaneously using the drag indicator. I didn't even bother testing the standard materials because they are all outside the range. Extruder Medium Soft TPU was the hardest and measured 95 Shore A. Then came all of the VarioShore results. They were starting at 92 Shore A for the samples printed at 190°C. The softest piece again was the 220°C one with 65 Shore A. The parts that were printed even hotter measure in at around 70 Shore A. The black spaghetti, Diabase X60, tested, just as advertised at 59 Shore A so again just slightly softer than our 220°C Varioshore TPU. Pretty cool or what are your thoughts?</p></div></div><div class="sqs-block image-block sqs-block-image sqs-text-ready" data-block-type="5" id="block-yui_3_17_2_1_1606582138790_28211"><div class="sqs-block-content" id="yui_3_17_2_1_1607265903845_221">
-
-
-
-
-
-
-
-
-
-
-
-
-                                    <div class="
-                                          image-block-outer-wrapper
-                                          layout-caption-below
-                                          design-layout-inline
-                                          combination-animation-none
-                                          individual-animation-none
-                                          individual-text-animation-none
-                                        " data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1607265903845_220">
-
-
-
-
-                                        <figure class="
-                                              sqs-block-image-figure
-                                              intrinsic
-                                            " style="max-width:945.0px;" id="yui_3_17_2_1_1607265903845_219">
-
-
-
-
-
-
-
-                                          <div style="padding-bottom: 56.2963%; overflow: hidden;" class="
-                                                image-block-wrapper
-
-
-
-                                                has-aspect-ratio
-                                              " data-animation-role="image" id="yui_3_17_2_1_1607265903845_218">
-                                            <noscript><img src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582763477-ZCNV1UA5LXFI3KO2BTP7/ke17ZwdGBToddI8pDm48kF7rt_rqXs1zbkvtRtwFRRBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIf-O3FPfdPBDBkFbuXOf7jqqPEHPz3Cg6szqD_JVj-s8/A_horizontal.png" alt="Shore A Hardness - average of 5 tests" /></noscript><img class="thumb-image loaded" data-src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582763477-ZCNV1UA5LXFI3KO2BTP7/ke17ZwdGBToddI8pDm48kF7rt_rqXs1zbkvtRtwFRRBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIf-O3FPfdPBDBkFbuXOf7jqqPEHPz3Cg6szqD_JVj-s8/A_horizontal.png" data-image="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582763477-ZCNV1UA5LXFI3KO2BTP7/ke17ZwdGBToddI8pDm48kF7rt_rqXs1zbkvtRtwFRRBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIf-O3FPfdPBDBkFbuXOf7jqqPEHPz3Cg6szqD_JVj-s8/A_horizontal.png" data-image-dimensions="945x532" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5fc281eae18c5c478e4cd77d" data-type="image" alt="Shore A Hardness - average of 5 tests" style="left: 0%; top: 0%; width: 100%; height: 100%; position: absolute;" data-image-resolution="2500w" src="./HVPSC_files/A_horizontal.png">
-                                          </div>
-
-
-
-
-
-
-                                          <figcaption class="image-caption-wrapper">
-                                            <div class="image-caption"><p class="" style="white-space:pre-wrap;">Shore A Hardness - average of 5 tests</p></div>
-                                          </figcaption>
-
-
-                                        </figure>
-
-
-                                    </div>
-
-
-
-
-
-
-                                </div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1606582138790_28510"><div class="sqs-block-content"><p class="" style="white-space:pre-wrap;">So, we were able to double the volume of Varioshore TPU by foaming it up, but does that mean our hardness halved? Let's take a look at the Shore A scale which is the one we should use for this material. We've previously learned that the shore harness values correlate with how far the indentor went into the material. If we calculate the indentation depths from the measured hardnesses, we have 0.21mm of indentation for the unfoamed material and 0.87mm at the maximum foamed level. This means that we not only doubled the softness but even more than quadrupled it! Pretty cool and again confirms the scaling laws for foams that say, that foaming level and mechanical property are usually not correlating linearly, but at, for example, half the density, you lose more than half of a mechanical property. More on that in the Light Weight PLA video.</p></div></div>
-
-                                        <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1606582138790_33183"><div class="sqs-block-content"><p class="" style="white-space:pre-wrap;">Let's now also quickly take a look at a way we can vary the softness of materials with simple slicer settings. 3D printing allows us to print parts with variable amounts of infill, which results in variable hardness for TPU parts. To quickly investigate that, I printed samples with different degrees of rectilinear infill in Extrudrs Medium TPU and measured the Shore Hardness. As expected, Shore Hardness A and D decrease with lower infill values, especially between 30 and 10% reaching a softness almost comparable to the maximum foamed Varioshore TPU or Diabase X60. Though this method is not always feasible because wall thickness and orientation will effect those values quite a bit. This investigation is by no means complete, and different infill patterns will give you different results, but I think I could show you the general idea.</p><p class="" style="white-space:pre-wrap;">So what's Colorfabb's Varioshore TPU now good for? For once, I see it as a material that you can use if you want to print something really soft, but your extruder cannot handle spaghetti filament. Also, you can basically double your printing speed for flexibles because at the same feed speed of the extruder, twice the material comes out of the nozzle. Then, the aesthetic with the nice, matte textured surface finish might be a good base for painting because the color can grab into the surface and things like markers don't smear out like on other 3D prints. I can also think of special applications where you could vary printing temperatures within a model to create some pretty exciting part properties, for example for shoe soles or bike grips. Then there is the density of the material. In the foamed up state, it is around 0.5 to 0.6 g/cm³ which make parts printed with this material quite buoyant. Especially interesting if you need to print something 100% dense, because you need to make sure that no water can seep into the infill. With its softness and therefore toughness, low density and closed porosity it might be a great material for parts that need to float and perform a function.</p></div></div><div class="sqs-block image-block sqs-block-image sqs-text-ready" data-block-type="5" id="block-yui_3_17_2_1_1606582138790_37673"><div class="sqs-block-content" id="yui_3_17_2_1_1607265903845_255">
-
-
-
-
-
-
-
-
-
-
-
-
-                                    <div class="
-                                          image-block-outer-wrapper
-                                          layout-caption-below
-                                          design-layout-inline
-                                          combination-animation-none
-                                          individual-animation-none
-                                          individual-text-animation-none
-                                        " data-test="image-block-inline-outer-wrapper" id="yui_3_17_2_1_1607265903845_254">
-
-
-
-
-                                        <figure class="
-                                              sqs-block-image-figure
-                                              intrinsic
-                                            " style="max-width:944.0px;" id="yui_3_17_2_1_1607265903845_253">
-
-
-
-
-
-
-
-                                          <div style="padding-bottom: 55.9322%; overflow: hidden;" class="
-                                                image-block-wrapper
-
-
-
-                                                has-aspect-ratio
-                                              " data-animation-role="image" id="yui_3_17_2_1_1607265903845_252">
-                                            <noscript><img src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582853035-HXDQBPM7KRSARXFUVRWD/ke17ZwdGBToddI8pDm48kLTtVLvHrsYtV62p_tPK-aBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIwNmveHrbxfqVDtEM_SDNSw79J1UQxQvWgnWe1Ld1S4A/density_01.png" alt="Density VS Extrusion Temperature" /></noscript><img class="thumb-image loaded" data-src="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582853035-HXDQBPM7KRSARXFUVRWD/ke17ZwdGBToddI8pDm48kLTtVLvHrsYtV62p_tPK-aBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIwNmveHrbxfqVDtEM_SDNSw79J1UQxQvWgnWe1Ld1S4A/density_01.png" data-image="https://images.squarespace-cdn.com/content/v1/5d88f1f13db677155dee50fa/1606582853035-HXDQBPM7KRSARXFUVRWD/ke17ZwdGBToddI8pDm48kLTtVLvHrsYtV62p_tPK-aBZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIwNmveHrbxfqVDtEM_SDNSw79J1UQxQvWgnWe1Ld1S4A/density_01.png" data-image-dimensions="944x528" data-image-focal-point="0.5,0.5" data-load="false" data-image-id="5fc282433485235c861827b4" data-type="image" alt="Density VS Extrusion Temperature" style="left: 0%; top: 0%; width: 100%; height: 100%; position: absolute;" data-image-resolution="2500w" src="./HVPSC_files/density_01.png">
-                                          </div>
-
-
-
-
-
-
-                                          <figcaption class="image-caption-wrapper">
-                                            <div class="image-caption"><p class="" style="white-space:pre-wrap;">Density VS Extrusion Temperature</p></div>
-                                          </figcaption>
-
-
-                                        </figure>
-
-
-                                    </div>
-
-
-
-
-
-
-                                </div></div><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_1_1606582138790_37972"><div class="sqs-block-content"><p class="" style="white-space:pre-wrap;">Because many asked after the last video on foaming materials, I quickly wanted to find out if the parts really don’t absorb water and not act like a sponge. For that, I weighted parts at different forming levels before and after I submerged them in water for 14h. Even though the foamed up parts absorbed slightly more water, in this case, 1% of their weight, they were not like a sponge. I suspect that the internal gas bubbles are mostly not connected, which makes it a closed-cell foam. Therefore this material may be a good solution for things that need to float and where you don't have to be afraid that your model absorbs water or leaks into it.</p></div></div></div></div></div>
-
-                                                    -->
-
                                         <div class="Blog-meta BlogItem-meta">
-                                            <time class="Blog-meta-item Blog-meta-item--date" datetime="2020-11-28">
-                                                November 20, 2020
+                                            <time class="Blog-meta-item Blog-meta-item--date" datetime="2020-10-10">
+                                                October 10, 2020
                                             </time>
                                         </div>
                                     </div>

@@ -637,25 +637,41 @@
              data-controllers-bound="MobileOverlayFolders">
             <div class="Mobile-overlay-menu-main">
                 <nav class="Mobile-overlay-nav Mobile-overlay-nav--primary" data-content-field="navigation">
-                    <button class="Mobile-overlay-nav-item Mobile-overlay-nav-item--folder"
-                            data-controller-folder-toggle="Hyper-Velocity 3D Printer"><span
-                            class="Mobile-overlay-nav-item--folder-label">3D Printer</span></button>
+                    <button class="Mobile-overlay-nav-item Mobile-overlay-nav-item--folder" data-controller-folder-toggle="Hyper-Velocity 3D Printer">
+                        <span class="Mobile-overlay-nav-item--folder-label">
+                            3D Printer
+                        </span>
+                    </button>
                     <a href="https://www.cnckitchen.com/" class="Mobile-overlay-nav-item"> MPCNC </a>
-                    <button class="Mobile-overlay-nav-item Mobile-overlay-nav-item--folder"
-                            data-controller-folder-toggle="eGPU Hub"><span
-                            class="Mobile-overlay-nav-item--folder-label">eGPU</span></button>
-                    <a href="https://github.com/Meta-Team" class="Mobile-overlay-nav-item"> Meta RoboMaster Team </a> <a
-                        href="https://www.cnckitchen.com/gear" class="Mobile-overlay-nav-item"> DIY Design </a> <a
-                        href="https://themelt.zone/" class="Mobile-overlay-nav-item"> Others </a></nav>
+                    <button class="Mobile-overlay-nav-item Mobile-overlay-nav-item--folder" data-controller-folder-toggle="eGPU Hub">
+                        <span class="Mobile-overlay-nav-item--folder-label">
+                            eGPU
+                        </span>
+                    </button>
+                    <a href="https://github.com/Meta-Team" class="Mobile-overlay-nav-item"> Meta RoboMaster Team </a>
+                    <a href="https://www.cnckitchen.com/gear" class="Mobile-overlay-nav-item"> DIY Design </a>
+                    <a href="https://themelt.zone/" class="Mobile-overlay-nav-item"> Others </a>
+                </nav>
                 <nav class="Mobile-overlay-nav Mobile-overlay-nav--secondary" data-content-field="navigation"></nav>
             </div>
             <div class="Mobile-overlay-folders" data-content-field="navigation">
                 <div class="Mobile-overlay-folder" data-controller-folder="Hyper-Velocity 3D Printer">
-                    <button class="Mobile-overlay-folder-item Mobile-overlay-folder-item--toggle"
-                            data-controller-folder-toggle="Hyper-Velocity 3D Printer"><span
-                            class="Mobile-overlay-folder-item--toggle-label">Back</span></button>
-                    <a href="HVPSC.html" class="Mobile-overlay-folder-item"> 2-Gen HVPSC </a> <a
-                        href="https://twitter.com/cnc_kitchen" class="Mobile-overlay-folder-item"> 1-Gen HVPSG </a>
+                    <button class="Mobile-overlay-folder-item Mobile-overlay-folder-item--toggle" data-controller-folder-toggle="Hyper-Velocity 3D Printer">
+                        <span class="Mobile-overlay-folder-item--toggle-label">Back</span>
+                    </button>
+                    <a href="HVPSC.html" class="Mobile-overlay-folder-item"> 2-Gen HVPSC </a>
+                    <a href="HVPSG.html" class="Mobile-overlay-folder-item"> 1-Gen HVPSG </a>
+                </div>
+            </div>
+            <div class="Mobile-overlay-folders" data-content-field="navigation">
+                <div class="Mobile-overlay-folder" data-controller-folder="eGPU Hub">
+                    <button class="Mobile-overlay-folder-item Mobile-overlay-folder-item--toggle" data-controller-folder-toggle="eGPU Hub">
+                        <span class="Mobile-overlay-folder-item--toggle-label">Back</span>
+                    </button>
+                    <a href="" class="Mobile-overlay-folder-item"> 4th-Gen with RTX3070TI </a>
+                    <a href="" class="Mobile-overlay-folder-item"> 3rd-Gen with RTX2080 </a>
+                    <a href="" class="Mobile-overlay-folder-item"> 2nd-Gen with RTX2080 </a>
+                    <a href="" class="Mobile-overlay-folder-item"> 1st-Gen with R9 nano </a>
                 </div>
             </div>
         </div>
@@ -684,23 +700,51 @@
             <div data-nc-container="top-center">
                 <nav class="Header-nav Header-nav--primary" data-nc-element="primary-nav"
                      data-content-field="navigation">
-                    <div class="Header-nav-inner"><span class="Header-nav-item Header-nav-item--folder"> <a
-                            href="HVPSC.html" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch"
-                            data-controllers-bound="HeaderNavFolderTouch">3D Printer</a> <span
-                            class="Header-nav-folder"> <a href="HVPSC.html"
-                                                          class="Header-nav-folder-item">2nd-Gen HVPSC</a> <a
-                            href="HVPSG.html" class="Header-nav-folder-item">1st-Gen HVPSG</a> </span> </span> <a
-                            href="https://www.cnckitchen.com/support-me" class="Header-nav-item"
-                            data-test="template-nav">MPCNC</a> <span class="Header-nav-item Header-nav-item--folder"> <a
-                            href="HVPSC.html" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch"
-                            data-controllers-bound="HeaderNavFolderTouch">eGPU</a> <span class="Header-nav-folder"> <a
-                            href="HVPSC.html" class="Header-nav-folder-item">2nd-Gen with RTX2080</a> <a
-                            href="https://twitter.com/cnc_kitchen"
-                            class="Header-nav-folder-item">1st-Gen with R9 nano</a> </span> </span> <a
-                            href="https://github.com/Meta-Team" class="Header-nav-item">Meta RoboMaster Team</a> <a
-                            href="DIYDesign.html" class="Header-nav-item">DIY Design</a> <a href=" "
-                                                                                            class="Header-nav-item"
-                                                                                            data-test="template-nav">Others</a>
+                    <div class="Header-nav-inner">
+                        <span class="Header-nav-item Header-nav-item--folder">
+                            <a href="HVPSC.html" style="font-size: 14px;" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">
+                                3D Printer
+                            </a>
+                            <span class="Header-nav-folder">
+                                <a href="HVPSC.html" class="Header-nav-folder-item">
+                                2nd-Gen HVPSC
+                                </a>
+                                <a href="HVPSG.html" class="Header-nav-folder-item">
+                                    1st-Gen HVPSG
+                                </a>
+                            </span>
+                        </span>
+                        <a href="" style="font-size: 14px;" class="Header-nav-item" data-test="template-nav">
+                            MPCNC
+                        </a>
+                        <span class="Header-nav-item Header-nav-item--folder">
+                            <a href="" style="font-size: 14px;" class="Header-nav-folder-title" data-controller="HeaderNavFolderTouch" data-controllers-bound="HeaderNavFolderTouch">
+                                eGPU
+                            </a>
+                            <span class="Header-nav-folder">
+                                <a href="" class="Header-nav-folder-item">
+                                    4th-Gen with RTX3070TI
+                                </a>
+                                <a href="" class="Header-nav-folder-item">
+                                    3rd-Gen with RTX2080
+                                </a>
+                                <a href="" class="Header-nav-folder-item">
+                                    2nd-Gen with RTX2080
+                                </a>
+                                <a href="" class="Header-nav-folder-item">
+                                    1st-Gen with R9 nano
+                                </a>
+                            </span>
+                        </span>
+                        <a href="https://github.com/Meta-Team" style="font-size: 14px;" class="Header-nav-item">
+                            Meta RoboMaster Team
+                        </a>
+                        <a href="DIYDesign.html" style="font-size: 14px;" class="Header-nav-item">
+                            DIY Design
+                        </a>
+                        <a href=" " style="font-size: 14px;" class="Header-nav-item" data-test="template-nav">
+                            Others
+                        </a>
                     </div>
                 </nav>
                 <a href="./index.html" class="Header-branding" data-nc-element="branding"
