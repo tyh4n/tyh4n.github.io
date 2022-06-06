@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HVP V1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style/W3.css">
+<link rel="stylesheet" href="style/Lato_font.css">
+<link rel="stylesheet" href="style/font_awesome.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="https://meta-team.github.io/#HOME" class="w3-bar-item w3-button w3-padding-large w3-hide-small">RoboMaster Team Meta</a>
+    <a href="https://labs.ri.cmu.edu/moonranger/" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MoonRanger</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">3D Printers </button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">HVP V1</a>
+        <a href="#" class="w3-bar-item w3-button">HVP V2</a>
+        <a href="#" class="w3-bar-item w3-button">Voron V0.!</a>
+      </div>
+    </div>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">eGPU Cases </button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">V1 for R9 nano</a>
+        <a href="#" class="w3-bar-item w3-button">V2 for RTX2080</a>
+        <a href="#" class="w3-bar-item w3-button">V3 for RTX2080</a>
+        <a href="#" class="w3-bar-item w3-button">V4 for RTX3070ti</a>
+      </div>
+    </div>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hide-small">All projects</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">More </button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Github Page</a>
+        <a href="#" class="w3-bar-item w3-button">Info</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">RoboMaster Team Meta</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">3D Printers</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">eGPU Cases</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">All projects</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+
+  <!-- The Content Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="HVP_V2">
+    <h2 class="w3-wide">HVP V1</h2>
+    <p class="w3-opacity"><i>OCTOBER 10, 2020</i></p>
+    <img src="src/HVP_V1/1.jpg" style="width:100%">
+    <p class="w3-justify">This is the first generation of the hyper-velocity printer. A lot of time was spent designing,
+      manufacturing, and tuning the printer. Most of the parts were manufactured using the MPCNC. The printer was aimed
+      to achieve a considerably high printing speed. However, the printer was eventually disassembled for the second
+      generation because of the design flaw on the Z axis.</p>
+    <img src="src/HVP_V1/17.jpg" style="width:100%">
+    <p class="w3-justify">These are the hardware bought online. I chose a set of SKR V1.3 and raspberry pi as controller
+      and actually brought a mosquito hot end from U.S. There's also a set of close-loop controlled NEMA23 stepper
+      motors and PCB for stepper driver converting that made by myself.</p>
+    <img src="src/HVP_V1/14.jpg" style="width:100%">
+    <p class="w3-justify">I made most of the parts by the MPCNC and spent a lot of time optimizing the machining process
+      for better quality and shorter manufacturing time. In the picture is the x carriage manufactured by MPCNC.</p>
+    <img src="src/HVP_V1/11.jpg" style="width:100%">
+    <p class="w3-justify">Most of the printer frame was manufactured with black FR4 fiber glass boards. The FR4 has
+      similar property with carbon fiber board but with a much cheaper price and around 30% more weight. Also, the FR4
+      is more friendly to manufacture as the dust does no harm and settling much faster than carbon fiber.</p>
+    <img src="src/HVP_V1/3.jpg" style="width:100%">
+    <p class="w3-justify">Just want to show off the perfect wiring. :) So things in this picture worth sharing are the
+      customized PCB boards for stepper driver converting on the top right of the SKR and customized lead screw which is
+      different with the previous picture. So the reason of switching to regular lead screw instead of the original ball
+      lead screw is the ball lead screw creates a periodic horizontal shift every rotation. And since the tolerance of
+      the ball lead screw is much smaller than the regular lead screw, the shift was transferred to the printer bed, and
+      it created a periodic layer pattern on the print part.</p>
+    <img src="src/HVP_V1/4.jpg" style="width:100%">
+    <p class="w3-justify">So I found the problem by using a dial gauge. There was actually some uneven vertical error
+      every z move as well as the tolerance on the ball lead screw is so small that it drove the two linear rail
+      unevenly. Therefore, after trying several solutions such as adding springs between the leading nut and heat bed as
+      the previous picture shows, I found my self more into the 3Z self-leveling design. So the first generation of
+      hyper velocity printer was very unfortunately disassembled for its successor.</p>
+    <p class="w3-justify">After around half a year after I took the printer apart, HevORT on YouTube (MirageC now) post
+      a video about the horizontal shift on the ball lead screw. The cool dude designed a quite good solution to the
+      problem. <a href="https://www.youtube.com/watch?v=mqSQhwqSzvg" target="_blank">Link to YouTube video.</a></p>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-light-grey w3-xlarge">
+  <a href="https://github.com/BeQuiet00" target="_blank"><img src="src/index/logo_big.png" style="width:10%"></a>
+  <p class="w3-medium"><a href="https://github.com/BeQuiet00" target="_blank">Bequiet00@Github</a></p>
+</footer>
+
+
+</body>
+</html>
