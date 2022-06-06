@@ -2,114 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24738a35-bc00-4c6e-8198-c0e0b2936015" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/arduino.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/c_cpp_properties.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIYDesign.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/Cast1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/Cast2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/Cast3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/Cast4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/Cast5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/Cast6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/Cast7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/DIYDesign1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/DIYDesign2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/DIYDesign3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/DIYDesign4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/Final1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/Final2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/Final3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/Final4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/Final5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/Final6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/GripDesign1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/GripDesign2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DIY_Design_files/GripDesign3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/6mAoYJozP0KvITIWVWFrdtyXXkinpMlg9gscPgzR7HJfelMffFHN4UJLFRbh52jhWDmq52ycwAjUwhsKFRSawQ9uZem8FQgcjs7iMPG0jcBDShNzdKucZAo0ZA3lF1Fa5PoDSWmyScm.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/7ACX1ll8pxmp-W5IFnwplmFbwq_vDvpxp5bFF4q7ftk.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/HVPSC1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/HVPSC2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/PtYaaBtm3XQ.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/ad_status.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/base.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/cldr-resource-pack-d2b6094e965c882c2de89-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/comments-8ece2b813ebcd79f96282-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/comments-f794dccd3bb871fc0cbc0bb7ad024168-min.en-US.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/common-3a137827b82e7069579d0-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/common-vendors-0f60f473745dfaafef21f-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/dialog-147e9222e4e36297544a6-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/dialog-4c984bcaacc45888f9092057493234b6-min.en-US.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/embed.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/fetch-polyfill.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/performance-e8f0bc9aa26cee507ecf9-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/remote.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/saved_resource" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/share-buttons-4451e0d91f8be00d0868e-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/site-bundle.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/www-embed-player.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSC_files/www-player-webp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/6mAoYJozP0KvITIWVWFrdtyXXkinpMlg9gscPgzR7HJfelMffFHN4UJLFRbh52jhWDmq52ycwAjUwhsKFRSawQ9uZem8FQgcjs7iMPG0jcBDShNzdKucZAo0ZA3lF1Fa5PoDSWmyScm.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/7ACX1ll8pxmp-W5IFnwplmFbwq_vDvpxp5bFF4q7ftk.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/PtYaaBtm3XQ.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/ad_status.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/base.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/cldr-resource-pack-d2b6094e965c882c2de89-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/comments-8ece2b813ebcd79f96282-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/comments-f794dccd3bb871fc0cbc0bb7ad024168-min.en-US.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/common-3a137827b82e7069579d0-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/common-vendors-0f60f473745dfaafef21f-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/dialog-147e9222e4e36297544a6-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/dialog-4c984bcaacc45888f9092057493234b6-min.en-US.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/embed.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/fetch-polyfill.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/performance-e8f0bc9aa26cee507ecf9-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/remote.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/saved_resource" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/share-buttons-4451e0d91f8be00d0868e-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/site-bundle.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/www-embed-player.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HVPSG_files/www-player-webp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_files/Logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_files/Logo_big.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_files/blog-collection-list-ab4142fcacca918cf4e2d-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_files/blog-collection-list-d41d8cd98f00b204e9800998ecf8427e-min.en-US.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_files/cldr-resource-pack-d2b6094e965c882c2de89-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_files/common-3a137827b82e7069579d0-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_files/common-vendors-0f60f473745dfaafef21f-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_files/performance-e8f0bc9aa26cee507ecf9-min.en-US.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_files/saved_resource" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_files/site-bundle.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index_files/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,15 +20,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Bequi/Desktop/BeQuiet00.github.io",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Bequi/Desktop/BeQuiet00.github.io&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -145,6 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654137994851</updated>
       <workItem from="1654137996763" duration="5266000" />
+      <workItem from="1654481036519" duration="603000" />
     </task>
     <servers />
   </component>
